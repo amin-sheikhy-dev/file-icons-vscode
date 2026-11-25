@@ -3,13 +3,13 @@
   "displayName": "File Icons VSCode",
   "description": "Custom file icon theme for Visual Studio Code, built from your own SVG icon set.",
   "version": "0.2.0",
-  "publisher": "sheikhy.dev",
+  "publisher": "SheikhyDev",
   "icon": "icon.png",
   "license": "MIT",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/file-icons-vscode.git"
+    "url": "https://github.com/amin-sheikhy-dev/file-icons-vscode.git"
   },
   "engines": {
     "vscode": "^1.75.0"
