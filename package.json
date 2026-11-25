@@ -1,0 +1,39 @@
+{
+  "name": "file-icons-vscode",
+  "displayName": "File Icons VSCode",
+  "description": "Custom file icon theme for Visual Studio Code, built from your own SVG icon set.",
+  "version": "0.2.0",
+  "publisher": "sheikhy.dev",
+  "icon": "icon.png",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/file-icons-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "file icons",
+    "icon theme",
+    "theme",
+    "icons"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "file-icons-vscode",
+        "label": "File Icons VSCode",
+        "path": "./fileicons.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "package": "vsce package --no-dependencies"
+  }
+}

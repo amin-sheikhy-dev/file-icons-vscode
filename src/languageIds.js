@@ -1,0 +1,53 @@
+/**
+ * VS Code language-id → icon-name map.
+ * Language ids: https://code.visualstudio.com/docs/languages/identifiers
+ *
+ * This gives every unsaved / extension-less file of that language the right
+ * icon too. Icon names must match SVGs in the `icons/` folder.
+ */
+export default {
+  javascript: "js",
+  javascriptreact: "reactjs",
+  typescript: "typescript",
+  typescriptreact: "reactts",
+  json: "json",
+  json5: "json5",
+  yaml: "yaml",
+  xml: "xml",
+  markdown: "markdown",
+  html: "html",
+  css: "css",
+  scss: "scss",
+  less: "less",
+  python: "python",
+  go: "go",
+  rust: "rust",
+  java: "java",
+  kotlin: "kotlin",
+  swift: "swift",
+  ruby: "ruby",
+  c: "c",
+  cpp: "cpp",
+  csharp: "csharp",
+  scala: "scala",
+  coffeescript: "coffeescript",
+  lua: "lua",
+  r: "r",
+  julia: "julia",
+  dart: "dart",
+  elixir: "elixir",
+  erlang: "erlang",
+  haskell: "haskell",
+  clojure: "clojure",
+  perl: "perl",
+  php: "php",
+  vue: "vue",
+  sql: "sql",
+  shellscript: "shell",
+  powershell: "powershell",
+  bat: "bat",
+  dockerfile: "docker",
+  makefile: "makefile",
+  ini: "conf",
+  properties: "properties",
+};
